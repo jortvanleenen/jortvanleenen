@@ -1,4 +1,4 @@
-💻 The code at this account consists of personal projects, as well as work I have undertaken in my academic career. This includes mandatory course projects, as well as things I stumbled upon during my courses that I found particularly intriguing and decided to explore in code.
+💻 The code at this account consists of personal projects, as well as work I have undertaken in my academic career. This includes mandatory course projects, but also things I stumbled upon during my courses that I found particularly intriguing and decided to explore further in code.
 
 🌐 If you're curious about what occupies my thoughts or has kept me up at night lately, check out my website at [jortvanleenen.nl](jortvanleenen.nl)!
 

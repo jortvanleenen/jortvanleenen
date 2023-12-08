@@ -4,4 +4,9 @@
 
 ✉️ Feel free to reach out by sending me an email.
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jortvanleenen&theme=tokyonight)
+<a href="#">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=jortvanleenen&show=reviews&show_icons=true&theme=github_dark_dimmed&border_radius=5" />
+</a>
+<a href="#">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jortvanleenen&layout=compact&langs_count=8&theme=github_dark_dimmed&border_radius=5" />
+</a>

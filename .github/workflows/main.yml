@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate GitHub contribution snake
 
 on:
   schedule:
@@ -13,14 +13,18 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
       
-      - name: generate github-contribution-grid-snake.svg
+      - name: Generate GitHub contribution snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            github-contribution-grid-snake.svg
-            github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake.svg?color_snake=#0969DA
+            github-contribution-grid-snake-dark.svg?color_snake=#0969DA&palette=github-dark
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit updated SVGs to repository
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update GitHub contribution snake SVGs"

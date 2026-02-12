@@ -4,12 +4,6 @@
 
 ✉️ Feel free to reach out by sending me an email.
 
-<a href="#">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=jortvanleenen&show=reviews&show_icons=true&theme=github_dark_dimmed&border_radius=5" />
-</a>
-<a href="#">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jortvanleenen&layout=compact&langs_count=8&theme=github_dark_dimmed&border_radius=5" />
-</a>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg" />
